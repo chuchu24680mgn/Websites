@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Message</title>
+</head>
+<body>
+<form>
+<fieldset>
+<legend><b>Your Message to "Example" Cafe:</b></legend>
+<table>
+<tr>
+<td>To: </td>
+<td><input list="bl">
+<datalist id="bl">
+<option value="Owner">
+<option value="Manager">
+<option value="Receptionist">
+<option value="Waiter">
+<option value="Deliver">
+</datalist></td>
+</tr>
+<tr>
+<td>Your Email</td>
+<td><label for="em"></label>
+<input type="email" name="em" id="e"></td>
+</tr>
+<tr> 
+<td>Message</td>
+<td><textarea id="msg" rows="13" cols="50"></textarea><br/>
+<label for="sm">Attach File:</label><br/>
+<input type="file" name="sf" id="sf">
+<input type="submit" name="submitted" value="Send">
+</td>
+</tr>
+<tr>
+<td padding-buttom: 30px;>Payment Methold</td>
+<td><input type="checkbox" name="cb1" id="cb1">
+<label for="cb1">Cash</label><br/>
+<input type="checkbox" name="cb1" id="cb2">
+<label for="cb2">Cheque</label><br/>
+<input type="checkbox" name="cb1" id="cb3">
+<label for="cb3">KPay/WavePay</label></td>
+</tr>
+</table>
+<br/>
+<br/>
+</fieldset>
+<fieldset>
+<legend><b>How you found us:</b></legend>
+<table>
+<tr>
+<td>How did you hear of us</td>
+<td><select>
+<option value="google">Google</option>
+<option value="lna">Local newspaper ad</option>
+<option value="friend" selected>Friend</option>
+<option value="other">Other</option>
+</select></td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="checkbox" name="cb1" id="cb1" checked="checked">
+<label for="cb1">Ensure this box is checked 
+if you would like to receive email updates</label>
+</td>
+</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
